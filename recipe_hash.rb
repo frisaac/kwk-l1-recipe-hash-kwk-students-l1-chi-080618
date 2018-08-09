@@ -33,7 +33,7 @@ recipe_ingredients
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
-  return perfect_10_recipe[mini_dark_chocolate_chips]
+  return perfect_10_recipe[:mini_dark_chocolate_chips]
 end
 amount_of_chocolate_chips
 
